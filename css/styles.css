@@ -154,6 +154,9 @@ p {
 
 
 @media (max-width: 991px) {
+  body {
+    font-size: 160%;
+  }
   #title {
     text-align: center;
   }
@@ -162,4 +165,8 @@ p {
     position: static;
     transform: rotate(0deg);
   }
+  .ctame {
+    font-size: 160%;
+    line-height: 2;
+    }
 }
