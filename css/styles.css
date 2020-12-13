@@ -111,11 +111,8 @@ p {
   padding: 3% 15%;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 40px;
-  width: 40px;
-  background-color: #8f8f8f;
+.carousel-button {
+  color: #ef8172;
 }
 
 
