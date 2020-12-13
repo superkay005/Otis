@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1,h2,h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #303841;
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* title section */
+#title {
+  background-color: #fb929e;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+.col-lg-6 {
+  line-height: 200%;
+}
+
+
+/***navbar***/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* button */
+.actionbutton {
+  margin: 3% 5% 3% 0;
+}
+
+.catimg {
+  width: 380px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* feature section */
+
+#features {
+  padding: 15px 0;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.featureicon {
+  color: #ef8172;
+  size: 5px;
+  margin-bottom: 1rem;
+}
+
+.featureicon:hover {
+  color: #ff4c68;
+}
+
+
+
+.featurecol {
+  text-align: center;
+  padding: 2% 5%;
+  line-height: 2rem;
+}
+
+/* testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ffdfdf;
+  color: #303841;
+}
+
+
+
+.testimonial-img {
+  border-radius: 5%;
+  width: 79%;
+  margin: 20px 0;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  background-color: #8f8f8f;
+}
+
+
+/* Pricing section */
+#pricing {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.pricingcol {
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  background-color: #fb929e;
+  color: white;
+  text-align: center;
+  padding: 5% 15%;
+  line-height: 3rem;
+}
+
+/* Footer section */
+#footer {
+  text-align: center;
+  background-color: #fff;
+
+}
+.ctame {
+  padding: 3% 15%;
+  line-height: 2rem;
+}
+.ctaicon {
+  margin: 0px 10px;
+}
+.copyright {
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .catimg {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
